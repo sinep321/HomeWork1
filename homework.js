@@ -1,5 +1,29 @@
 'use strict';
 
+let startBtn = document.getElementById('start'),
+    burgetValue = document.getElementsByClassName('burget-value'),
+    dayBurgetValue = document.getElementsByClassName('dayburget-value'),
+    levelValue = document.getElementsByClassName('level-value'),
+    expensesValue = document.getElementsByClassName('expenses-value'),
+    optionalExpensesValue = document.getElementsByClassName('optionalexpenses-value'),
+    incomeValue = document.getElementsByClassName('oncome-value'),
+    mothSavingValue = document.getElementsByClassName('mothsaving-value'),
+    yearSavingValue = document.getElementsByClassName('yearseving-value'),
+
+    expensesItem = document.getElementsByClassName('expenses-item'),
+    expensesBtn = document.getElementsByTagName('button')[0],
+    optionalBtn = document.getElementsByTagName('button')[1],
+    countBtn = document.getElementsByTagName('button')[2],
+    optionalExpensesItem = document.querySelectorAll('.optinalexpenses-item'),
+    incomeItem = document.querySelector('.choose-income'),
+    checkSaving = document.querySelector('#saving'),
+    sumValue = document.querySelector('.choose-sum'),
+    percentValue = document.querySelector('.choose-percent'),
+    yearValue = document.querySelector('year-value'),
+    mothValue = document.querySelector('moth-value'),
+    dayValue = document.querySelector('day-value');
+
+
 let money, time;
 
 
